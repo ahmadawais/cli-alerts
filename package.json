@@ -1,0 +1,28 @@
+{
+	"name": "cli-alerts",
+	"version": "0.0.1",
+	"description": "Cross platform CLI Alerts with colors &amp; colored symbols for success, info, warning, error. Work on macOS, Linux, and Windows.",
+	"license": "MIT",
+	"repository": "ahmadawais/cli-alerts",
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"cli-alerts",
+		"Ahmad Awais",
+		"ahmadawais"
+	],
+	"devDependencies": {
+		"prettier": "^2.0.2"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	}
+}
