@@ -1,16 +1,20 @@
-<h1 align="center">
-  <img src="https://raw.githubusercontent.com/ahmadawais/cli-alerts/HEAD/.github/cli-alerts.png" alt="cli-alerts screenshot" />
+<h4 align="center">
+    <a href="https://github.com/ahmadawais/cli-alerts">
+        <img src="https://raw.githubusercontent.com/ahmadawais/cli-alerts/HEAD/.github/cli-alerts.png" alt="cli-alerts screenshot" />
+    </a>
+    <br>
+    <br>
 
- cli-alerts
-</h1>
-
+Cross platform CLI Alerts with colors & colored symbols for success, info, warning, error. Work on macOS, Linux, and Windows.
 
 [![DOWNLOADS](https://img.shields.io/npm/dt/cli-alerts?label=DOWNLOADS%20%20❯&colorA=6A788D&colorB=6A788D&style=flat)](https://www.npmjs.com/package/cli-alerts) [![Node.js CLI](https://img.shields.io/badge/-NodeCLI.com-gray.svg?colorB=6A788D&style=flat)](https://NodeCLI.com/?utm_source=FOSS) [![Learn VSCode](https://img.shields.io/badge/-VSCODE.pro-gray.svg?colorB=6A788D&style=flat)](https://VSCode.pro/?utm_source=FOSS) [![Sponsor](https://img.shields.io/badge/-Sponsor-gray.svg?colorB=6A788D&style=flat)](https://github.com/ahmadawais/sponsor?utm_source=FOSS)
 [![Follow @MrAhmadAwais on Twitter](https://img.shields.io/badge/FOLLOW%20@MRAHMADAWAIS%20%E2%86%92-gray.svg?colorA=6A788D&colorB=6A788D&style=flat)](https://twitter.com/mrahmadawais/)
 
-> Cross platform CLI Alerts with colors &amp; colored symbols for success, info, warning, error. Work on macOS, Linux, and Windows.
+</h4>
 
 <br>
+
+# cli-alerts
 
 [![📟](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/install.png)](./../../)
 
