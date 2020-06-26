@@ -19,7 +19,11 @@
 		"ahmadawais"
 	],
 	"devDependencies": {
-		"prettier": "^2.0.2"
+		"prettier": "^2.0.5"
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"log-symbols": "^4.0.0"
 	},
 	"scripts": {
 		"test": "node test.js",
