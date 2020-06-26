@@ -22,7 +22,7 @@ npm install cli-alerts
 ## Usage
 
 ```js
-const cliAlerts = require('cli-alerts');
+const alert = require('cli-alerts');
 ```
 
 <br>

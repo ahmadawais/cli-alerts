@@ -1,8 +1,9 @@
 /**
- * Cli Alerts.
+ * CLI Alerts.
  *
- * Cross platform CLI Alerts with colors &amp; colored symbols for success, info, warning, error. Work on macOS, Linux, and Windows.
+ * Cross platform CLI Alerts with colors.
+ * Works on macOS, Linux, and Windows.
+ * Alerts: `success`, `info`, `warning`, `error`.
  *
  * @author Awais <https://twitter.com/MrAhmadAwais/>
  */
-module.exports = () => {};
