@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="[./.github/cli-alerts.png](https://raw.githubusercontent.com/ahmadawais/cli-alerts/HEAD/.github/cli-alerts.png)" alt="cli-alerts screenshot/>
+  <img src="https://raw.githubusercontent.com/ahmadawais/cli-alerts/HEAD/.github/cli-alerts.png" alt="cli-alerts screenshot/>
 
   cli-alerts
 </h1>
