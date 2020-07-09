@@ -29,18 +29,18 @@ module.exports = options => {
 	const printName = name ? name : type.toUpperCase();
 
 	if (type === `success`) {
-		console.log(`\n${sym.success}  ${greenI(` ${printName} `)} ${green(msg)}\n`);
+		console.log(`\n${sym.success} ${greenI(` ${printName} `)} ${green(msg)}\n`);
 	}
 
 	if (type === `warning`) {
-		console.log(`\n${sym.warning}  ${orangeI(` ${printName} `)} ${orange(msg)}\n`);
+		console.log(`\n${sym.warning} ${orangeI(` ${printName} `)} ${orange(msg)}\n`);
 	}
 
 	if (type === `info`) {
-		console.log(`\n${sym.info}  ${blueI(` ${printName} `)} ${blue(msg)}\n`);
+		console.log(`\n${sym.info} ${blueI(` ${printName} `)} ${blue(msg)}\n`);
 	}
 
 	if (type === `error`) {
-		console.log(`\n${sym.error}  ${redI(` ${printName} `)} ${red(msg)}\n`);
+		console.log(`\n${sym.error} ${redI(` ${printName} `)} ${red(msg)}\n`);
 	}
 };
