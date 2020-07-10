@@ -22,6 +22,7 @@
 		"prettier": "^2.0.5"
 	},
 	"dependencies": {
+		"@scarf/scarf": "^1.0.6",
 		"chalk": "^4.1.0",
 		"log-symbols": "^4.0.0"
 	},
