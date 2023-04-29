@@ -22,25 +22,27 @@ module.exports = options => {
 	const defaultOptions = {
 		type: `error`,
 		msg: `You forgot to define all options.`,
-		name: ``
+		name: ``,
+		lineBreak: true
 	};
 	const opts = {...defaultOptions, ...options};
 	const {type, msg, name} = opts;
 	const printName = name ? name : type.toUpperCase();
+	const lineBreak = opts.lineBreak ? `\n` : ``;
 
 	if (type === `success`) {
-		console.log(`\n${sym.success} ${greenI(` ${printName} `)} ${green(msg)}\n`);
+		console.log(`${lineBreak}${sym.success} ${greenI(` ${printName} `)} ${green(msg)}${lineBreak}`);
 	}
 
 	if (type === `warning`) {
-		console.log(`\n${sym.warning} ${orangeI(` ${printName} `)} ${orange(msg)}\n`);
+		console.log(`${lineBreak}${sym.warning} ${orangeI(` ${printName} `)} ${orange(msg)}${lineBreak}`);
 	}
 
 	if (type === `info`) {
-		console.log(`\n${sym.info} ${blueI(` ${printName} `)} ${blue(msg)}\n`);
+		console.log(`${lineBreak}${sym.info} ${blueI(` ${printName} `)} ${blue(msg)}${lineBreak}`);
 	}
 
 	if (type === `error`) {
-		console.log(`\n${sym.error} ${redI(` ${printName} `)} ${red(msg)}\n`);
+		console.log(`${lineBreak}${sym.error} ${redI(` ${printName} `)} ${red(msg)}${lineBreak}`);
 	}
 };
