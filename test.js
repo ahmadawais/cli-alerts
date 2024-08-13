@@ -1,4 +1,4 @@
-const alert = require('./index.js');
+import alert from "./index.js";
 
 console.clear();
 

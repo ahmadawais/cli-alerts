@@ -7,8 +7,8 @@
  *
  * @author Awais <https://twitter.com/MrAhmadAwais/>
  */
-const chalk = require('chalk');
-const sym = require('log-symbols');
+import chalk from "chalk";
+import sym from "log-symbols";
 const green = chalk.green;
 const greenI = chalk.green.inverse;
 const red = chalk.red;
@@ -18,7 +18,7 @@ const orangeI = chalk.keyword('orange').inverse;
 const blue = chalk.blue;
 const blueI = chalk.blue.inverse;
 
-module.exports = options => {
+export default options => {
 	const defaultOptions = {
 		type: `error`,
 		msg: `You forgot to define all options.`,
